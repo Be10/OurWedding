@@ -150,12 +150,20 @@ p {
 	margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1 {
+	color: $brand-black;
+	font-family: $font-primary;
+	font-weight: 350;
+	margin: 0 0 20px 0;
+}
+
+h2, h3, h4, h5, h6, figure {
 	color: $brand-black;
 	font-family: $font-primary;
 	font-weight: 400;
 	margin: 0 0 20px 0;
 }
+
 ::-webkit-selection {
   color: $brand-white;
   background: $brand-primary;
