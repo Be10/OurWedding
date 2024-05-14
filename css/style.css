@@ -62,7 +62,14 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1 {
+  color: #000;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 350;
+  margin: 0 0 20px 0;
+}
+
+h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
